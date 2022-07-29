@@ -23,3 +23,9 @@ function TaxSplitNo() {
 function TaxSplitYes() {
     console.log(inputTaxSplitYes.checked)
 }
+
+
+/* 
+Hinweis für die Ausgabe des Ergebnises
+https://developer.mozilla.org/de/docs/Web/API/Document/createElement 
+*/
