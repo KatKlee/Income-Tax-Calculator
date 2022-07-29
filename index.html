@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechner für Einkommensteuer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form action="" onsubmit="return false">
+        <h1>Rechner für Einkommenssteuer</h1>
+
+
+        <main>
+
+            <section class="inputFields">
+                <!-- Steuerjahr -->
+                <article class="topic">
+                    <div>
+                        <label for="taxYear">Steuerjahr</label>
+                        <input type="number" name="taxYear" id="taxYear" min="2019" max="2021" step="1" value="2021">
+                    </div>
+                    <div class="infobox">?
+                        <!-- <span class="infoboxText">Hier kommt der Infotext hin</span> -->
+                    </div>
+                </article>
+
+                <!-- Zu versteuerndes Einkommen -->
+                <article class="topic">
+                    <div>
+                        <label for="income">Zu versteuerndes Einkommen</label>
+                        <input type="number" name="taxableIncome" id="taxableIncome" placeholder="Jahreseinkommen">
+                    </div>
+                    <div class="infobox">?
+                        <!-- <span class="infoboxText">Hier kommt der Infotext hin</span> -->
+                    </div>
+                </article>
+
+                <!-- Kirchensteuer -->
+                <article class="topic">
+                    <div>
+                        <label for="churchTax">Kirchensteuer</label>
+                        <select name="churchTax" id="churchTax">
+                            <option value="0">nein</option>
+                            <option value="8">ja 8%</option>
+                            <option value="9">ja 9%</option>
+                        </select>
+                    </div>
+                    <div class="infobox">?
+                        <!-- <span class="infoboxText">Hier kommt der Infotext hin</span> -->
+                    </div>
+                </article>
+
+                <!-- Ehegattensplitting -->
+                <article class="topic">
+                    <div>
+                        <label for="marriageTaxSplit">Ehegattensplitting</label>
+                        <div>
+                            <input type="radio" name="marriageTaxSplit" id="splitNo" value="no">
+                            <label class="labelName" for="no">Nein</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="marriageTaxSplit" id="splitYes" value="yes">
+                            <label class="labelName" for="yes">Ja</label>
+                        </div>
+                    </div>
+                    <div class="infobox">?
+                        <!-- <span class="infoboxText">Hier kommt der Infotext hin</span> -->
+                    </div>
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <button onclick="berechne()">Berechnen</button></td>
+            <article>
+                <a href="">Leistungsbeschreibung</a>
+                <a href="">Datenschutzerklärung</a>
+            </article>
+            <div class="result"></div>
+        </footer>
+
+
+    </form>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
