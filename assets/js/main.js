@@ -26,6 +26,6 @@ function TaxSplitYes() {
 
 
 /* 
-Hinweis für die Ausgabe des Ergebnises
+Hinweis für die Ausgabe des Ergebnisses
 https://developer.mozilla.org/de/docs/Web/API/Document/createElement 
 */
