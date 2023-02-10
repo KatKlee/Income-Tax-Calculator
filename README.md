@@ -10,11 +10,11 @@ https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2019
 Dieses Projekt ist noch in Bearbeitung.
 
 
-*An application for calculating income tax. A front-end project using JavaScript for the functionalities.
+*An application for calculating income tax. A front-end project using JavaScript for the functionalities.*
 
-Formulas according to:  
+*Formulas according to:  
 https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2021  
 https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2020  
-https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2019
+https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2019*
 
-This project is still in progress.*
+*This project is still in progress.*
