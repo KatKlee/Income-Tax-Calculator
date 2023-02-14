@@ -9,6 +9,7 @@ https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2019
 
 Dieses Projekt ist noch in Bearbeitung.
 
+/
 
 *An application for calculating income tax. A front-end project using JavaScript for the functionalities.*
 
