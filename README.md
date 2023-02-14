@@ -1,4 +1,4 @@
-## Income Tax Calculator
+## Einkommenssteuer-Rechner <br> Income Tax Calculator
 
 Eine Anwendung zur Berechnung der Einkommenssteuer. Ein Frontend-Projekt unter Verwendung von JavaScript für die Funktionalitäten.
 
